@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task-force</title>
+    <script src="index.js" defer></script>
+<script defer src="bundle.js"></script></head>
+<body>
+<div class="main-container">
+    <div class="header">
+        <div class="search-container">
+            <div class="search-box">
+                <button>🔍</button>
+                <form role="search" class="search">
+                    <input class="searchbar" type="search" placeholder="Rechercher...">
+                </form>
+            </div>
+        </div>
+        <div class="settings">
+            <img class="round" src="/assets/blank-profile-picture-973460_1280.webp" alt="Img1">
+            <p>Name User</p>
+        </div>
+        <div class="profile">
+            <img class="round" src="/assets/blank-profile-picture-973460_1280.webp" alt="profile image">
+            <div class="text">
+                <p>Hi There</p>
+                <p>Name User</p>
+            </div>
+        </div>
+    </div>
+    <div class="dashboard">
+        <div class="dashboard-titre">
+            <img class="logo" src="/assets/dashboard_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="dashboard">
+            <p>Dashboard</p>
+        </div>
+        <ul class="liste1">
+            <li><button id="add-task"><img src="/assets/add_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="add">Ajouter une tâche</button></li>
+            <li><button id="delete-all-task"><img src="/assets/delete_24dp_48752C_FILL0_wght400_GRAD0_opsz24.svg" alt="delete all">Supprimer toutes les tâches</button></li>
+        </ul>
+        <ul class="liste2">
+            <p>Trier par :</p>
+            <li><button id="order-date"><img src="/assets/calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="date">Date</button></li>
+            <li><button id="order-priority"><img src="/assets/priority_high_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="importance">Importance</button></li>
+            <li><button id="order-alphabet"d><img src="/assets/sort_by_alpha_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="alpha">Ordre alphabétique</button></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="project">
+            <p class="maintitle">Project</p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-text default-message">
+                      <h4 class="title">Ajoutez votre première tâche</h4>
+                      <p>En cliquant sur "Ajouter une tâche"</p>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- Ajouter d'autres cards similaires ici -->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
